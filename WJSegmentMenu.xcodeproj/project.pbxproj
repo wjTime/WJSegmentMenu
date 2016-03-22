@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB9714A11CA15AD10062506D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB97149E1CA15AD10062506D /* AppDelegate.m */; };
+		CB9714A21CA15AD10062506D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9714A01CA15AD10062506D /* ViewController.m */; };
+		CB9714A51CA15AEF0062506D /* WJSegmentMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9714A41CA15AEF0062506D /* WJSegmentMenu.m */; };
 		CB9DF5331CA14AF10038B25A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9DF5321CA14AF10038B25A /* main.m */; };
-		CB9DF5361CA14AF10038B25A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9DF5351CA14AF10038B25A /* AppDelegate.m */; };
-		CB9DF5391CA14AF10038B25A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9DF5381CA14AF10038B25A /* ViewController.m */; };
 		CB9DF53C1CA14AF10038B25A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9DF53A1CA14AF10038B25A /* Main.storyboard */; };
 		CB9DF53E1CA14AF10038B25A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB9DF53D1CA14AF10038B25A /* Assets.xcassets */; };
 		CB9DF5411CA14AF10038B25A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9DF53F1CA14AF10038B25A /* LaunchScreen.storyboard */; };
@@ -35,12 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB97149D1CA15AD10062506D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB97149E1CA15AD10062506D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB97149F1CA15AD10062506D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB9714A01CA15AD10062506D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB9714A31CA15AEF0062506D /* WJSegmentMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSegmentMenu.h; sourceTree = "<group>"; };
+		CB9714A41CA15AEF0062506D /* WJSegmentMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSegmentMenu.m; sourceTree = "<group>"; };
 		CB9DF52E1CA14AF10038B25A /* WJSegmentMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJSegmentMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9DF5321CA14AF10038B25A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CB9DF5341CA14AF10038B25A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CB9DF5351CA14AF10038B25A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CB9DF5371CA14AF10038B25A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CB9DF5381CA14AF10038B25A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CB9DF53B1CA14AF10038B25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB9DF53D1CA14AF10038B25A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB9DF5401CA14AF10038B25A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +81,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB97149B1CA15AD10062506D /* WJSegmentMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CB9714A31CA15AEF0062506D /* WJSegmentMenu.h */,
+				CB9714A41CA15AEF0062506D /* WJSegmentMenu.m */,
+			);
+			path = WJSegmentMenu;
+			sourceTree = "<group>";
+		};
+		CB97149C1CA15AD10062506D /* WJSegmentMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CB97149D1CA15AD10062506D /* AppDelegate.h */,
+				CB97149E1CA15AD10062506D /* AppDelegate.m */,
+				CB97149F1CA15AD10062506D /* ViewController.h */,
+				CB9714A01CA15AD10062506D /* ViewController.m */,
+			);
+			path = WJSegmentMenuDemo;
+			sourceTree = "<group>";
+		};
 		CB9DF5251CA14AF10038B25A = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +124,8 @@
 		CB9DF5301CA14AF10038B25A /* WJSegmentMenu */ = {
 			isa = PBXGroup;
 			children = (
-				CB9DF5341CA14AF10038B25A /* AppDelegate.h */,
-				CB9DF5351CA14AF10038B25A /* AppDelegate.m */,
-				CB9DF5371CA14AF10038B25A /* ViewController.h */,
-				CB9DF5381CA14AF10038B25A /* ViewController.m */,
+				CB97149B1CA15AD10062506D /* WJSegmentMenu */,
+				CB97149C1CA15AD10062506D /* WJSegmentMenuDemo */,
 				CB9DF53A1CA14AF10038B25A /* Main.storyboard */,
 				CB9DF53D1CA14AF10038B25A /* Assets.xcassets */,
 				CB9DF53F1CA14AF10038B25A /* LaunchScreen.storyboard */,
@@ -270,9 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB9DF5391CA14AF10038B25A /* ViewController.m in Sources */,
-				CB9DF5361CA14AF10038B25A /* AppDelegate.m in Sources */,
+				CB9714A21CA15AD10062506D /* ViewController.m in Sources */,
+				CB9714A11CA15AD10062506D /* AppDelegate.m in Sources */,
 				CB9DF5331CA14AF10038B25A /* main.m in Sources */,
+				CB9714A51CA15AEF0062506D /* WJSegmentMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +520,7 @@
 				CB9DF55D1CA14AF10038B25A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB9DF55E1CA14AF10038B25A /* Build configuration list for PBXNativeTarget "WJSegmentMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +529,7 @@
 				CB9DF5601CA14AF10038B25A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB9DF5611CA14AF10038B25A /* Build configuration list for PBXNativeTarget "WJSegmentMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +538,7 @@
 				CB9DF5631CA14AF10038B25A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
